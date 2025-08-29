@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ❤️ Crear corazones al hacer click/touch
     const createHeart = (x, y) => {
         const heart = document.createElement('div');
-        heart.innerHTML = '❤️';
+        heart.innerHTML = '💞';
         heart.style.position = 'fixed';
         heart.style.left = `${x}px`;
         heart.style.top = `${y}px`;
